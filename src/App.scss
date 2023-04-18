@@ -69,6 +69,7 @@ h2 {
 }
 
 .main-banner {
+    overflow: hidden;
     &.slick-slider {
         margin-bottom: 64px;
     }
@@ -496,7 +497,7 @@ h2 {
 footer {
     background-color: #fff;
     padding-top: calc(33px - 12px);
-
+    overflow: hidden;
     .menu-list {
         a {
             font-style: normal;
@@ -518,13 +519,19 @@ footer {
             display: flex;
             justify-content: flex-start;
             list-style-type: none;
-
+            padding-left: 0;
             li {
                 margin-right: 10px;
             }
         }
     }
+    .menu-list,.bottom{
+        .col{
+            padding:0;
+        }
+    }
     @media screen and (min-width: 768px){
+
         .bottom{
             .social{
                 margin: 0;

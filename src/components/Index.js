@@ -490,49 +490,50 @@ function Index() {
             </section>
             <section id="zone-8" className="section section-instagram">
                 <div className="container">
-
-                    <div className="col-12">
-                        <div className="wrapTitle text-center">
-                            <h2>BeeYou trên Instagram</h2>
-                            <div className={"contentRoboto"}>
-                                <p>
-                                    Follow BeeYou trên instagram để có cơ hội tham gia các chương trình ưu đãi dành riêng cho người dùng Instagram
-                                </p>
-                                <p>
-                                    <a href="#"><i className="fa fa-instagram"></i> <span>instagr.am/beeyoufashion</span></a>
-                                </p>
+                    <div className="row">
+                        <div className="col-12">
+                            <div className="wrapTitle text-center">
+                                <h2>BeeYou trên Instagram</h2>
+                                <div className={"contentRoboto"}>
+                                    <p>
+                                        Follow BeeYou trên instagram để có cơ hội tham gia các chương trình ưu đãi dành riêng cho người dùng Instagram
+                                    </p>
+                                    <p>
+                                        <a href="#"><i className="fa fa-instagram"></i> <span>instagr.am/beeyoufashion</span></a>
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="instagram-slider">
-                            <div className={"slide-item"}>
-                                <a href={"#"}>
-                                    <img className={"img-fluid"} src={ImageInstagram1}/>
-                                </a>
-                            </div>
-                            <div className={"slide-item"}>
-                                <a href={"#"}>
-                                    <img className={"img-fluid"} src={ImageInstagram2}/>
-                                </a>
-                            </div>
-                            <div className={"slide-item"}>
-                                <a href={"#"}>
-                                    <img className={"img-fluid"} src={ImageInstagram3}/>
-                                </a>
-                            </div>
-                            <div className={"slide-item"}>
-                                <a href={"#"}>
-                                    <img className={"img-fluid"} src={ImageInstagram1}/>
-                                </a>
-                            </div>
-                            <div className={"slide-item"}>
-                                <a href={"#"}>
-                                    <img className={"img-fluid"} src={ImageInstagram2}/>
-                                </a>
-                            </div>
-                            <div className={"slide-item"}>
-                                <a href={"#"}>
-                                    <img className={"img-fluid"} src={ImageInstagram3}/>
-                                </a>
+                            <div className="instagram-slider">
+                                <div className={"slide-item"}>
+                                    <a href={"#"}>
+                                        <img className={"img-fluid"} src={ImageInstagram1}/>
+                                    </a>
+                                </div>
+                                <div className={"slide-item"}>
+                                    <a href={"#"}>
+                                        <img className={"img-fluid"} src={ImageInstagram2}/>
+                                    </a>
+                                </div>
+                                <div className={"slide-item"}>
+                                    <a href={"#"}>
+                                        <img className={"img-fluid"} src={ImageInstagram3}/>
+                                    </a>
+                                </div>
+                                <div className={"slide-item"}>
+                                    <a href={"#"}>
+                                        <img className={"img-fluid"} src={ImageInstagram1}/>
+                                    </a>
+                                </div>
+                                <div className={"slide-item"}>
+                                    <a href={"#"}>
+                                        <img className={"img-fluid"} src={ImageInstagram2}/>
+                                    </a>
+                                </div>
+                                <div className={"slide-item"}>
+                                    <a href={"#"}>
+                                        <img className={"img-fluid"} src={ImageInstagram3}/>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
