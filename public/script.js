@@ -35,12 +35,14 @@ $(document).ready(function () {
                 breakpoint: 992, // Tablet breakpoint
                 settings: {
                     slidesToShow: 4, // Show 3 items on tablet
+                    arrows: false,
                 },
             },
             {
                 breakpoint: 1200, // Desktop breakpoint
                 settings: {
                     slidesToShow: 4, // Show 4 items on desktop
+                    arrows: false,
                 },
             },
         ],

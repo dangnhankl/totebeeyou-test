@@ -24,7 +24,6 @@ function formatCurrency(number) {
 }
 
 
-
 function Index() {
     const items = [
         {
@@ -193,21 +192,24 @@ function Index() {
                             Tote của BeeYou cam kết mang đến sự hài lòng tối đa cho bạn
                         </h2>
                         <div className="hasBgZoneDsk2 d-none d-sm-block text-center">
-                            <img className="img-fluid" src={mainImgZone2Dsk} />
+                            <img className="img-fluid" src={mainImgZone2Dsk}/>
                         </div>
                         <div className={"contentRight contentRoboto"}>
                             <p>
-                                Với cộng đồng nhà thiết kế, chúng tôi là ngôi nhà thời trang,nơi chắp cánh cho hàng vạn mẫu
+                                Với cộng đồng nhà thiết kế, chúng tôi là ngôi nhà thời trang,nơi chắp cánh cho hàng vạn
+                                mẫu
                                 thiết kế của các Designer trên khắp Vietnam.
                             </p>
                             <p>
                                 Với khách hàng, BeeYou là nơi bạn dễ dàng tìm thấy những những
                                 sản phẩm thời trang thể hiện CHẤT của riêng mình. Là chính mình cùng BeeYou.
                             </p>
-                            <p>Với đội ngũ lâu năm kinh nghiệm, có tâm với nghề, những dòng sản phẩm của BeeYou được tuyển
+                            <p>Với đội ngũ lâu năm kinh nghiệm, có tâm với nghề, những dòng sản phẩm của BeeYou được
+                                tuyển
                                 chọn
                                 những nguyên vật liệu
-                                cao cấp nhất, gia công tinh xảo, công nghệ tối tân nhất hiện nay, được kiểm tra chất lượng
+                                cao cấp nhất, gia công tinh xảo, công nghệ tối tân nhất hiện nay, được kiểm tra chất
+                                lượng
                                 đầu
                                 ra
                                 khắt khe.</p>
@@ -232,17 +234,16 @@ function Index() {
                     </div>
 
                 </div>*/}
-                <div className="container d-flex">
-                    <div className="row w-100 flex-column-reverse flex-row-sm justify-content-sm-between">
+                <div className="container d-flex w-100 flex-column-reverse flex-row-sm justify-content-sm-center">
+                    <div className="row">
                         <div className="col-12 col-sm-6">
                             <div className="wrap-width-dsk">
                                 <h2>
                                     Siêu phẩm Tote mới ra lò
                                 </h2>
                                 <div className={"contentRoboto"}>
-                                    <p>
-                                        Mới "chế" ra cái Tote mới các bác ạ. Thông tin mô tả sơ bộ các bác đọc ở dưới nhé. em đi
-                                        đóng hàng giao cho khách phát</p>
+                                    <p>Mới "chế" ra cái Tote mới các bác ạ. Thông tin mô tả sơ bộ các bác đọc ở dưới
+                                        nhé. em đi đóng hàng giao cho khách phát</p>
                                 </div>
                             </div>
 
@@ -253,7 +254,8 @@ function Index() {
                                     </h6>
 
                                     <p className="card-text">
-                                        <i className={"icon-canvas"} style={{backgroundImage: `url(${iconCanvas})`}}></i>
+                                        <i className={"icon-canvas"}
+                                           style={{backgroundImage: `url(${iconCanvas})`}}></i>
                                         <span>
                                 Chất vải canvas mềm mịn, không xù, không nhão
                             </span>
@@ -271,7 +273,8 @@ function Index() {
                             </span>
                                     </p>
                                     <p className="card-text">
-                                        <i className={"icon-zipper"} style={{backgroundImage: `url(${iconZipper})`}}></i>
+                                        <i className={"icon-zipper"}
+                                           style={{backgroundImage: `url(${iconZipper})`}}></i>
                                         <span>
                                 Túi có khoá kéo, túi con tiện lợi cho nàng sử dụng
                             </span>
@@ -281,7 +284,9 @@ function Index() {
                                 </div>
                             </div>
                         </div>
-                        <img className={"img-fluid hasImgInner "} src={mainImgZone3}/>
+                        <div className="col-12 col-sm-6 order-first">
+                            <img className={"img-fluid hasImgInner "} src={mainImgZone3}/>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -292,7 +297,8 @@ function Index() {
                             <div className="wrap-width-dsk">
                                 <h2>Tote giá "nóng"</h2>
                                 <div className={"contentRoboto"}>
-                                    <p>Đống này đang giảm giá nên rất "nóng”. Bạn còn chờ gì nữa mà "phỏng tay” ngay đi</p>
+                                    <p>Đống này đang giảm giá nên rất "nóng”. Bạn còn chờ gì nữa mà "phỏng tay” ngay
+                                        đi</p>
                                 </div>
                             </div>
 
@@ -343,7 +349,8 @@ function Index() {
                         <div className="col-12 text-center text-custom-dsk wrap-width-dsk">
                             <h2>Tote bán chạy</h2>
                             <div className={"contentRoboto"}>
-                                <p>Ra bao nhiêu hàng cũng bán không kịp với mấy cô mà, mà cứ như vậy là Bee thích à nha, hehe</p>
+                                <p>Ra bao nhiêu hàng cũng bán không kịp với mấy cô mà, mà cứ như vậy là Bee thích à nha,
+                                    hehe</p>
                             </div>
 
                         </div>
@@ -394,7 +401,8 @@ function Index() {
                             <div className="wrap-width-dsk">
                                 <h2>Tote nổi bật</h2>
                                 <div className={"contentRoboto"}>
-                                    <p>Ra bao nhiêu hàng cũng bán không kịp với mấy cô mà, mà cứ như vậy là Bee thích à nha,
+                                    <p>Ra bao nhiêu hàng cũng bán không kịp với mấy cô mà, mà cứ như vậy là Bee thích à
+                                        nha,
                                         hehe</p>
                                 </div>
                             </div>
@@ -440,8 +448,8 @@ function Index() {
                 </div>
             </section>
             <section id="zone-7" className={"section section-review"}>
-                <div className="container d-flex">
-                    <div className="row flex-column flex-row-sm justify-content-sm-between">
+                <div className="container d-flex flex-column flex-row-sm justify-content-sm-center w-100">
+                    <div className="row">
                         <div className="col-12 col-sm-5">
                             <div className="wrapImg">
                                 <img className={"img-fluid"} src={ImageReview} alt=""/>
@@ -452,7 +460,8 @@ function Index() {
                                 <h2>Đánh giá của các nàng</h2>
                                 <div className={"contentRoboto"}>
                                     <p>
-                                        Mấy đánh giá này là lấy từ facebook qua nè, không có tự bịa ra đâu nha. Hông tin lên facebook mà xem.
+                                        Mấy đánh giá này là lấy từ facebook qua nè, không có tự bịa ra đâu nha. Hông tin
+                                        lên facebook mà xem.
                                     </p>
                                 </div>
                             </div>
@@ -496,10 +505,12 @@ function Index() {
                                 <h2>BeeYou trên Instagram</h2>
                                 <div className={"contentRoboto"}>
                                     <p>
-                                        Follow BeeYou trên instagram để có cơ hội tham gia các chương trình ưu đãi dành riêng cho người dùng Instagram
+                                        Follow BeeYou trên instagram để có cơ hội tham gia các chương trình ưu đãi dành
+                                        riêng cho người dùng Instagram
                                     </p>
                                     <p>
-                                        <a href="#"><i className="fa fa-instagram"></i> <span>instagr.am/beeyoufashion</span></a>
+                                        <a href="#"><i className="fa fa-instagram"></i>
+                                            <span>instagr.am/beeyoufashion</span></a>
                                     </p>
                                 </div>
                             </div>

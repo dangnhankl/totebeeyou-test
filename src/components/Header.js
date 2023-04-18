@@ -1,9 +1,12 @@
 import React, {useEffect, useState} from "react";
+import {useLocation} from "react-router-dom"
 import logo from "../images/Logo-BeeYou.png";
 import cartIcon from "../images/Group 35.png";
 
 
 function Header() {
+
+    const location = useLocation();
     const [menus, setMenus] = useState([])
     useEffect(() => {
         setMenus([
@@ -25,7 +28,6 @@ function Header() {
             }
         ]);
     }, []);
-
     return (
         <header>
             <nav className="navbar navbar-expand-lg navbar-light">
@@ -60,10 +62,11 @@ function Header() {
                         <ul className="navbar-nav">
                             {menus.map((item, index) => {
                                 return (
-                                    <li key={index} className="nav-item">
+                                    <li key={index} className={`nav-item ${item.link === location.pathname ? ' active' : ''}`}>
                                         <a className="nav-link" href={item.link}>
                                             {item.name}
                                         </a>
+
                                     </li>
                                 )
                             })}
