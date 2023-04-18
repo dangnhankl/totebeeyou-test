@@ -1,48 +1,55 @@
 import React from "react";
-import logo from "../images/Logo-BeeYou.png";
-import cartIcon from "../images/Group 35.png";
+import IconFacebook from "../images/icon-facebook.png"
+import IconInstagram from "../images/icon-instagram.png"
+import IconYoutube from "../images/icon-youtube.png"
 
-function Header() {
+function Footer() {
     return (
-        <header>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <div className="container d-flex justify-content-start align-items-center">
-                    {/* Logo */}
-                    <a className="navbar-brand" href="#">
-                        <img src={logo} alt="Tote Bee You" />
-                    </a>
-
-                    {/* Navigation Items */}
-                    <div className="d-flex">
-                        <ul className="navbar-nav flex-grow-1">
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">
-                                    Home
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">
-                                    About
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">
-                                    Contact
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    {/* Cart Icon */}
-                    <div className="d-flex ms-auto align-items-center">
-                        <a className="icon-cart" href="#">
-                            <img src={cartIcon} alt="Cart" />
-                        </a>
+        <footer>
+            <div className="menu-list">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12 col-sm-8 menu-list">
+                            <div className="row">
+                                <div className="col-6 col-sm-3">
+                                    <a href="#">Sản phẩm hot</a>
+                                </div>
+                                <div className="col-6 col-sm-3">
+                                    <a href="#">Hot deal tháng 12</a>
+                                </div>
+                                <div className="col-6 col-sm-3">
+                                    <a href="#">Sản phẩm bán chạy</a>
+                                </div>
+                                <div className="col-6 col-sm-3">
+                                    <a href="#">Another links</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-12 col-sm-4 bottom">
+                            <div className="row flex-end">
+                                <div className="col col-sm">
+                                    <p className={"copy-right text-end"}>© 2020 beebag.com.vn</p>
+                                </div>
+                                <div className="col col-sm">
+                                    <ul className={"social"}>
+                                        <li>
+                                            <img src={IconFacebook} alt=""/>
+                                        </li>
+                                        <li>
+                                            <img src={IconInstagram} alt=""/>
+                                        </li>
+                                        <li>
+                                            <img src={IconYoutube} alt=""/>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </nav>
-        </header>
+            </div>
+        </footer>
     );
 }
 
-export default Header;
+export default Footer;
